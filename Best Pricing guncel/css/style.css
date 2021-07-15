@@ -1,0 +1,298 @@
+.Headerh2 {
+    font-weight: 200;
+}
+
+.Hedaerspan {
+    font-weight: 300 !important;
+}
+
+.divide {
+    width: 70px;
+    height: 4px;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    display: block;
+    margin-left: 47%;
+    margin-top: 10px;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #696969;
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Monthly {
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    padding: 10px 110px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Yearly {
+    background-image: white;
+    padding: 10px 110px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+/* Container */
+
+* ::after ::before {
+    box-sizing: border-box;
+}
+
+.col-4 {
+    width: 333px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+    margin-top: 33px;
+    margin-right: 43px;
+    text-align: center;
+}
+
+.Popular {
+    color: #384141;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 2.5rem;
+}
+
+.container .row .col-4 .standart {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container .row .col-4 .price {
+    border-top: 1px solid rgba(139, 144, 157, 0.18);
+    border-bottom: 1px solid rgba(139, 144, 157, 0.18);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.container .row .col-4 .price .qiymet {
+    font-weight: 300;
+    font-size: 3rem;
+    color: #384141;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container .row .col-4 .price .month {
+    color: #384141;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container .row .col-4 ul li {
+    list-style: none;
+}
+
+.container .row .col-4 .check li .fa-check {
+    color: #B2CB20;
+    margin-right: 0px;
+    padding-right: 9px;
+}
+
+.container .row .col-4 .check {
+    font-size: 14px;
+    padding: 25px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.container .row .col-4 ul {
+    font-size: 14px;
+    padding: 25px 0;
+    display: inline-block;
+}
+
+.container .row .col-4 .check li {
+    margin: 14px 0 14px 25px;
+    text-align: left;
+    font-size: 1rem;
+    position: relative;
+    color: #808080;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container .row .col-4 .check li .fa-times {
+    color: #E84455;
+    margin-right: 0px;
+    padding-right: 9px;
+}
+
+.container .row .col-4 button {
+    border-color: #fff;
+    background: #24cdd5;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: .8rem 2.25rem;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 28px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin-bottom: 48px;
+}
+
+.container .row .col-4 {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .row {
+    margin-left: 260px;
+    margin-top: 58px;
+}
+
+.container .row .col-4:hover {
+    background-color: #26313c;
+    transition: 0.4s;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.container .row .col-4:hover .Popular {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover .standart {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover .price .qiymet {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover .price .month {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover .check li {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover .check li .fa-times {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover .check li .fa-check {
+    color: white;
+    transition: 0.4s;
+}
+
+.container .row .col-4:hover button {
+    transition: 0.4s;
+    background-color: #26313c;
+    border-color: white;
+}
+
+.container .row .col-4 button:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: #26313c;
+}
+
+.container .row .col-4 .fa-bookmark {
+    margin-left: 105px;
+    font-size: 60px;
+    position: absolute;
+    color: #E84455;
+    top: -15px;
+    z-index: 1;
+}
+
+.container .row .col-4 .endirim {
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    color: white;
+    font-size: 14px;
+    z-index: 3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container .row .col-4 .sale {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    z-index: 2;
+    color: #E84455;
+    right: 24px;
+    top: 7px;
+}
+
+.container .row .col-4:hover .endirim {
+    color: #E84455;
+    transition: 0.4s;
+    z-index: 2;
+}
+
+.container .row .col-4:hover .sale {
+    color: white;
+    transition: 0.4s;
+    z-index: 3;
+}
+
+.container .row .birdaire {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 540px;
+    margin-top: 50px;
+    background: white;
+    border: 1px solid #a5a5a5;
+    cursor: pointer;
+}
+
+.container .row .ikidaire {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 540px;
+    margin-top: 50px;
+    background: #24cdd5;
+    border: 1px solid #a5a5a5;
+    cursor: pointer;
+    position: relative;
+    left: -538px;
+}
+
+.container.row {
+    margin-left: 250px;
+    margin-top: 58px;
+}
